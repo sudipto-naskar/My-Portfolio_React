@@ -1,0 +1,254 @@
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 90vh;
+    padding: 0 3rem 0 3rem;
+    margin-top: 27rem;
+    margin-bottom: 14rem;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.heading span:nth-of-type(1) {
+    color: var(--black);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.heading span:nth-of-type(2) {
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.cs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4.5rem;
+    margin-top: 3.5rem;
+    z-index: 9;
+    position: relative;
+
+}
+
+
+.hovred{
+    transform-style: preserve-3d;
+}
+
+.hovblue {
+    transform-style: preserve-3d;
+}
+
+.hovyellow {
+    transform-style: preserve-3d;
+}
+
+.hovsky {
+    transform-style: preserve-3d;
+}
+
+.hovblack {
+    transform-style: preserve-3d;
+}
+
+.hovlitegreen {
+    transform-style: preserve-3d;
+}
+
+.hovgrey {
+    transform-style: preserve-3d;
+}
+
+.hovgreen {
+    transform-style: preserve-3d;
+}
+
+.hovlitered {
+    transform-style: preserve-3d;
+}
+
+.hovlitesky {
+    transform-style: preserve-3d;
+}
+
+.hovviolet {
+    transform-style: preserve-3d;
+}
+
+.hovblueyellow {
+    transform-style: preserve-3d;
+}
+
+
+/* .cs>*{
+    position: absolute;
+} */
+
+
+/*blur*/
+
+.blur {
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #edd0ffa5;
+    z-index: -99;
+    top: -18%;
+    left: 56%;
+    filter: blur(60px);
+}
+
+.s-blur3 {
+    left: 48rem;
+    top: 28rem;
+}
+
+.s-blur4 {
+    top: 13rem;
+    left: -15rem;
+}
+
+/* HOVER EFFECT */
+
+.hovred:hover {
+    box-shadow: rgba(195, 96, 25, 1.5) 0px 19px 38px, rgba(215, 113, 29, 0.22) 0px 15px 25px;
+    border-radius: 30px;
+    transition: 1s ease;
+    animation: animatee 2s infinite;
+}
+
+.hovblue:hover {
+    box-shadow: #497ffe7a 0px 19px 38px, #3669e0 0px 15px 25px;
+    border-radius: 30px;
+    transition: 1s ease;
+    animation: animatee 2s infinite;
+}
+
+.hovyellow:hover {
+    box-shadow: #d3bd2d 0px 19px 38px, #f5dd43 0px 15px 25px;
+    border-radius: 30px;
+    transition: 1s ease;
+    animation: animatee 2s infinite;
+}
+
+.hovsky:hover {
+    box-shadow: #47cef0 0px 19px 38px, #54d4f4 0px 15px 25px;
+    border-radius: 30px;
+    transition: 1s ease;
+    animation: animatee 2s infinite;
+}
+
+.hovblack:hover {
+    box-shadow: #454545b8 0px 19px 38px, #414141 0px 15px 25px;
+    border-radius: 30px;
+    transition: 1s ease;
+    animation: animatee 2s infinite;
+}
+
+.hovlitegreen:hover {
+    box-shadow: #6cc24a 0px 19px 38px, #6cc24a 0px 15px 25px;
+    border-radius: 30px;
+    transition: 1s ease;
+    animation: animatee 2s infinite;
+}
+
+
+.hovgrey:hover {
+    box-shadow: #41404062 0px 19px 38px, #0d0d0e85 0px 15px 25px;
+    border-radius: 30px;
+    transition: 1s ease;
+    animation: animatee 2s infinite;
+}
+
+.hovgreen:hover {
+    box-shadow: rgb(36 175 25) 0px 19px 38px, rgb(63, 160, 55) 0px 15px 25px;
+    border-radius: 30px;
+    transition: 1s ease;
+    animation: animatee 2s infinite;
+}
+
+.hovlitered:hover {
+    box-shadow: rgb(255 139 115 / 72%) 0px 19px 38px, rgb(241, 80, 47) 0px 15px 25px;
+    border-radius: 30px;
+    transition: 1s ease;
+    animation: animatee 2s infinite;
+}
+
+.hovlitesky:hover {
+    box-shadow: rgb(6, 182, 212) 0px 19px 38px, rgb(6, 182, 212) 0px 15px 25px;
+    border-radius: 30px;
+    transition: 1s ease;
+    animation: animatee 2s infinite;
+}
+
+.hovviolet:hover {
+    box-shadow: #563d7c 0px 22px 38px, #563d7c 0px 15px 25px;
+    border-radius: 30px;
+    transition: 1s ease;
+    animation: animatee 2s infinite;
+}
+
+.hovblueyellow:hover {
+    box-shadow: #306998 0px 22px 38px, #fec600d6 20px 30px 25px;
+    border-radius: 30px;
+    transition: 1s ease;
+    animation: animatee 2s infinite;
+}
+
+/* for animation */
+
+@keyframes animatee {
+
+    0%,
+    100% {
+        transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(-5deg);
+    }
+}
+
+
+/* RESPONSIVE */
+
+@media screen and (max-width: 720px) {
+    .skills {
+        /* margin-top: 10rem; */
+        margin-bottom: 20rem;
+        height: 30vh;
+    }
+
+    .heading {
+        display: block;
+    }
+
+    .heading span:nth-of-type(1) {
+        font-size: 2.3rem;
+        margin-right: 16px;
+
+    }
+
+    .cs {
+        transform: scale(0.42);
+        display: grid;
+        height: 100%;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        /* background-color: #153c98; */
+        padding: 25px;
+        width: 800px;
+        margin-top: -15px;
+    }
+}
